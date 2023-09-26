@@ -195,7 +195,7 @@ server {
 Issue the following curl command. The 403 status code confirms that the rule is working.
 ```sh
 curl localhost?testparam=test
-```
+
 <html>
 <head><title>403 Forbidden</title></head>
 <body bgcolor="white">
@@ -203,6 +203,7 @@ curl localhost?testparam=test
 <hr><center>nginx/1.13.1</center>
 </body>
 </html>
+```
 
 [source](https://www.nginx.com/blog/compiling-and-installing-modsecurity-for-open-source-nginx/)
 
