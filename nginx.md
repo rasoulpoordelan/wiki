@@ -33,3 +33,4 @@ sudo apt-get install nginx=1.23.4-1~bionic
 |command | README |
 | ------ | ------ |
 |nginx -V | show version and plugins |
+|nginx -t | test nginx when you change the config |
